@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm --prefix frontend run installAndCompile && npm --prefix mockserver run installAndCompile",
+    "start": "npm --prefix mockserver start"
   },
+  "dependencies": {},
+  "devDependencies": {},
+  "cacheDirectories": [
+    "frontend/node_modules",
+    "mockserver/node_modules"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/musstaffali/ImportAuto.git"
