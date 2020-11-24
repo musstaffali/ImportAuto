@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm --prefix frontend run installAndCompile && npm --prefix mockserver run installAndCompile",
     "start": "npm --prefix mockserver start"
   },
   "dependencies": {},
