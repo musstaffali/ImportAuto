@@ -79,7 +79,8 @@ body{
   overflow: hidden;
 }
 .height-max{
-  min-height: calc(100vh - 76px);
+  max-width: 100%;
+  min-height: calc(100vh - 68px);
   background:url('../img/Massarti.jpeg');
   background-position: center;
   background-size: cover;
