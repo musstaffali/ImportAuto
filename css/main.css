@@ -85,7 +85,7 @@ body{
   min-height: calc(100vh - 68px);
   background:url('../img/questionBcg.jpeg');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
