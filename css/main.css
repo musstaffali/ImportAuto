@@ -48,7 +48,7 @@ body{
   background-color: var(--mainYellow);
 }
 .navbar-icon{
-  font-size: 2rem;
+  font-size: 7rem;
   color: var(--mainBlue);
 }
 .navbar-toggler{
@@ -62,7 +62,7 @@ body{
   color: var(--mainBlue);
 }
 .nav-icon{
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   color: var(--mainBlue);
   text-decoration: none!important;
   transition-property: color;
@@ -83,16 +83,11 @@ body{
   max-width: 100% ;
   height: auto ;
   min-height: calc(100vh - 68px);
-  background:url('../img/Massarti.jpeg');
+  background:url('../img/questionBcg.jpeg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain ;
-  animation-name: zoom;
-  animation-duration: 20s;
-  animation-delay: 5s;
-  animation-iteration-count: infinite;
 }
 @keyframes zoom{
   0%{
