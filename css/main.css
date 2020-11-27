@@ -79,7 +79,7 @@ body{
   overflow: hidden;
 }
 .height-max{
-  max-width: 100%;
+  max-width: auto;
   height: auto;
   min-height: calc(100vh - 68px);
   background:url('../img/questionBcg.jpeg');
