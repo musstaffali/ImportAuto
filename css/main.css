@@ -79,31 +79,15 @@ body{
   overflow: hidden;
 }
 .height-max{
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
+  max-width: 100%;
+  height: auto;
   min-height: calc(100vh - 68px);
   background:url('../img/questionBcg.jpeg');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-@keyframes zoom{
-  0%{
-    transform: scale(1);
-  }
-  50%{
-    transform: scale(1.2) translateX(-5%)
-  }
-  100%{
-    transform: scale(1)
-  }
-}
-
-
-
-
 
 .title-heading{
   background: rgba(0,0,0,0.4);
