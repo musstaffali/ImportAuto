@@ -46,13 +46,17 @@ body{
 .navbar{
   background: var(--mainWhite);
   background-color: var(--mainYellow);
+  max-width: 100%;
 }
 .navbar-icon{
   font-size: 7rem;
   color: var(--mainBlue);
+  max-width: 100%;
+  
 }
 .navbar-toggler{
   outline-color: var(--mainBlue)!important;
+  max-width: 100%;
 }
 .nav-link{
   color: var(--mainBlack);
@@ -68,14 +72,17 @@ body{
   transition-property: color;
   transition-duration: 2s;
   transition-timing-function: linear;
+  max-width: 100%;
 }
 .nav-icon:hover{
   color: var(--mainBlack);
+  max-width: 100%;
 }
 /* header */
 .header{
   clip-path: polygon(0 0,100% 0,100% 95%,50% 100%,0 95%);
   color:var(--mainWhite);
+  max-width: 100%;
   overflow: hidden;
 }
 
@@ -86,8 +93,8 @@ body{
   background:url('../img/headerBcg.jpeg');
   /* background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat; */
+  background-attachment: fixed;*/
+  background-repeat: no-repeat; 
 }
 
 .title-heading{
