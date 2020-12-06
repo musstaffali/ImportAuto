@@ -81,13 +81,13 @@ body{
 
 .height-max{
   max-width: 100%;
-  max-height: 100%;
+  /* max-height: 100%; */
   min-height: calc(100vh - 68px);
   background:url('../img/headerBcg.jpeg');
-  background-position: center;
+  /* background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .title-heading{
