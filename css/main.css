@@ -415,3 +415,7 @@ background: var(--mainBlack);
 .footer-icon:hover{
   color: var(--mainBlue);
 }
+
+th {
+  text-align: right; 
+}
